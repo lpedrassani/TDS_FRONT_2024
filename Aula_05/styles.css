@@ -1,0 +1,74 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(21, 53, 21);
+    background-image: url(f4a6bf006dc6c40308a735c883eef92c.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card{
+    background-color: rgba(223, 201, 6, 0.3);
+    padding: 40px;
+    border-radius: 20px;
+    width: 280px;
+}
+
+.card-header{
+    padding-bottom: 50px;
+    color: #FFF;
+}
+
+.card-content label{
+    color: #FFF;    
+    font-size: 12px;
+}
+
+.card-content input{
+    margin-top: 10px;
+    padding: 0 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #E1E1E1;
+    outline: none;
+}
+
+
+.card-content-area{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
+.card-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-footer .submit{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(82, 82, 209);
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    margin: 10px - 0px;
+}
+
+.card-footer a{
+    text-align: center;
+    font-size: 11px;
+    text-transform: uppercase;
+    opacity: 0.8;
+    color: white;
+    text-decoration: underline;
+    margin-top: 10px;
+}
