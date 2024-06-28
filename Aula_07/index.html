@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+</head>
+<body>
+    <p>JavaScript</p>
+    <script>
+        
+
+        const listaAlunos1 = [
+            {
+                nome: "Leonardo Leopardo",
+                idade: 25,
+                email: "therealcodmaster1998@gmail.com"
+            },
+            {
+                nome: "Bruninho Rei Delas",
+                idade: 19,
+                email: "bruniinhslipknot@gmail.com"
+            },
+            {
+                nome: "João Peido Feijão",
+                idade: 29,
+                email: "joaoloks8bugre@gmail.com"
+            },
+            {
+                nome: "Larissa Albuquerque",
+                idade: 12,
+                email: "larissinhassanhada@outlook.com.br"
+            },
+            {
+                nome: "Dom Casporra",
+                idade: 35,
+                email: "flickmandoformiguinhasz@hotmail.com"
+            },
+            {
+                nome: "Maicaca fia do Baitaca",
+                idade: 40,
+                email: "bostadevaca123@gmail.com"
+            }
+        ];
+
+        const listaAlunos2 = [
+            {
+                nome: "Fernandinho Quermamar",
+                idade: 18,
+                email: "ferbocadveludo@outlook.com"
+            },
+            {
+                nome: "Steve do Minecraft",
+                idade: 39,
+                email: "illcallthecorporate@gmail.com"
+            },
+            {
+                nome: "O tal do Cunhão",
+                idade: 17,
+                email: "otaldocunhao@gmail.com"
+            },
+            {
+                nome: "Buiu Flamenguista",
+                idade: 27,
+                email: "naoseinemler@gmail.com"
+            },
+            {
+                nome: "Bonequinho de Porcelana",
+                idade: 16,
+                email: "joaoemoporcelana@orkut.com"
+            },
+            {
+                nome: "O tal do Wilson Capataz",
+                idade: 30,
+                email: "euamovaquejada@gmail.com"
+            }
+        ];
+
+        const Professores =[ 
+            {
+            nome: "Guilherme Manuel Pires",
+            idade: 28,
+            email: "guilherme.pires@sistema.fiep.com.br",
+            alunos:listaAlunos1
+            },
+            {
+            nome: "Espiriguidiberto Chafundinório",
+            idade: 32,
+            email: "florindagostosas2@gmail.com",
+            alunos:listaAlunos2
+            }
+     ];
+
+        Professores.forEach((item,index) => {
+            console.log(index, item);
+            item.alunos.forEach((item,index) =>{
+                console.log(index, item);
+            }
+            )
+        }); 
+
+    </script>
+</body>
+</html>
