@@ -1,10 +1,7 @@
 body{
     padding: 0px;
     margin: 0px;
-    background-color: rgb(21, 53, 21);
-    background-image: url(f4a6bf006dc6c40308a735c883eef92c.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #454d6b;
 }
 
 #login{
@@ -16,7 +13,7 @@ body{
 }
 
 .card{
-    background-color: rgba(223, 201, 6, 0.3);
+    background-color: rgba(19, 19, 19, 0.3);
     padding: 40px;
     border-radius: 20px;
     width: 280px;
@@ -35,12 +32,16 @@ body{
 .card-content input{
     margin-top: 10px;
     padding: 0 5px;
-    /* background-color: transparent; */
+    background-color: transparent;
     border: none;
     border-bottom: 1px solid #E1E1E1;
     outline: none;
 }
 
+.card-content-area input{
+    color: #FFF;
+    font-size: 12px;
+}
 
 .card-content-area{
     display: flex;
@@ -56,11 +57,12 @@ body{
 .card-footer .submit{
     width: 100%;
     height: 40px;
-    background-color: rgb(82, 82, 209);
+    background-color: #a13854;
     border: none;
-    color: white;
+    color: #E1E1E1;
     text-transform: uppercase;
-    margin: 10px - 0px;
+    margin: 10px 0px;
+    cursor: pointer;
 }
 
 .card-footer a{
@@ -68,23 +70,7 @@ body{
     font-size: 11px;
     text-transform: uppercase;
     opacity: 0.8;
-    color: white;
-    text-decoration: underline;
+    color: #FFF;
+    text-decoration: none;
     margin-top: 10px;
-}
-
-#passforgot{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50vh;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#cadastro{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 60vh;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

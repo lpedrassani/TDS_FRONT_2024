@@ -3,55 +3,96 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Javascript</title>
+    <title>Js</title>
 </head>
 
 <body>
     <p>Aula Javascript</p>
-
+    <input type="text" name="" id="">
+    <button>Salvar</button>
+    <ul>
+        <li>item</li>
+    </ul>
 
     <script>
-        
+        // Declarando uma variavel do tipo String
+        var nome = "Guilherme";
+        var calculo = 1 + 2.5;
+        var lista = [1, 2, 3, 4, 5];
+        var matriz = [[1], [1]]
+        var guilherme = {
+            nome: "Guilherme",
+            idade: 26
+        };
+
+        // console.log('Valor: ', nome, ' Tipo: ', typeof nome);
+        // console.log('Valor: ', calculo, ' Tipo: ', typeof calculo);
+        // console.log('Valor: ', lista, ' Tipo: ', typeof lista);
+        // console.log('Valor: ', matriz, ' Tipo: ', typeof matriz);
+
 
         var pessoas = [
+            // guilherme,
             {
-                nome: "Leonardo Leopardo",
+                nome: "Gabrielle",
+                idade: 24,
+                email: "gabi@gmil.com"
+            },
+            {
+                nome: "Ricardo",
+                idade: 73,
+                email: "ricardo@gmil.com"
+            },
+            {
+                nome: "Diego",
+                idade: 24,
+                email: "diego@gmil.com"
+            },
+            {
+                nome: "Leonardo",
                 idade: 25,
-                email: "therealcodmaster1998@gmail.com"
+                email: "leonardo@gmil.com"
             },
             {
-                nome: "Bruninho Rei Delas",
-                idade: 19,
-                email: "bruniinhslipknot@gmail.com"
-            },
-            {
-                nome: "João Peido Feijão",
+                nome: "Thiago",
                 idade: 29,
-                email: "joaoloks8bugre@gmail.com"
+                email: "thiago@gmil.com"
             },
             {
-                nome: "Larissa Albuquerque",
+                nome: "Guilherme Isotton",
+                idade: 16,
+                email: "guilherme.isotton@gmil.com"
+            },
+            {
+                nome: "Bruno",
+                idade: 17,
+                email: "bruno@gmil.com"
+            },
+            {
+                nome: "Thiago Mazaroli",
+                idade: 13,
+                email: "thiago.mazaroli@gmil.com"
+            },
+            {
+                nome: "Pedro",
                 idade: 12,
-                email: "larissinhassanhada@outlook.com.br"
-            },
-            {
-                nome: "Dom Casporra",
-                idade: 35,
-                email: "flickmandoformiguinhasz@hotmail.com"
-            },
-            {
-                nome: "Maicaca fia do Baitaca",
-                idade: 40,
-                email: "bostadevaca123@gmail.com"
+                email: "pedro@gmil.com"
             }
         ];
+        // console.log(pessoas[1]);
 
-        for(var cont = 0; cont < pessoas.length; cont++)
-        {
-            console.log(pessoas[cont]);
+        for (var cont = 0; cont < pessoas.length; cont++) {
+
+            // console.log(cont);
+            if (pessoas[cont].email == undefined) {
+                console.log(`O ${pessoas[cont].nome} não tem e-mail configurado!`);
+            } else {
+                console.log(pessoas[cont].email)
+            }
         }
 
     </script>
+
 </body>
 
 </html>
