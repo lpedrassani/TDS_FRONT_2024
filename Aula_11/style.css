@@ -1,0 +1,49 @@
+.apresentacao{
+    display: flex;
+    background-color: gold;
+}
+
+.foto img{
+    border-radius: 100%;
+}
+
+.nome{
+    width: 100%;
+    text-align: center;
+    font-style: oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.campo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 300px;
+    background-color: black;
+    margin: 5px;
+    cursor: pointer;
+    color:white;
+    font-size: 50px;
+}
+
+.campo a{
+    color:white;
+    font-size:30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: black;
+}
+
+footer{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    background-color: gold;
+}
