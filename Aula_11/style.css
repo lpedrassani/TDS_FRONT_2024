@@ -1,5 +1,5 @@
 .apresentacao{
-    display: flex;
+    /* display: flex; */
     background-color: gold;
 }
 
@@ -25,7 +25,30 @@
     cursor: pointer;
     color:white;
     font-size: 50px;
+    transition: 0.1s all;   
+    transition-delay: 0.1s;
+
 }
+
+/* .campo:hover{
+    height: 200px;
+    transition: 0.1s all;   
+    transition-delay: 0.1s; 
+} */
+
+.campo:hover{
+    position: fixed;
+    height: 200px;
+    background-color: white;
+    transition: 0.1s all;   
+    transition-delay: 0.1s; 
+    z-index: 999;
+    color: white;
+}
+.detalhe-campo:hover{
+    height: 500px;
+}
+
 
 .campo a{
     color:white;
@@ -56,7 +79,26 @@ footer{
 }
 
 .bio{
-    color:white;
+
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gold;
     font-size:30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+}
+
+
+.teste{
+    height: 2px;
+    background-color: white;
+}
+
+.teste:hover{
+    height: 200px;
 }
